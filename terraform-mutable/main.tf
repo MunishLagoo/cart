@@ -1,7 +1,7 @@
 module "cart" {
 source = "git::https://github.com/MunishLagoo/test-Terraform-mutable.git//app-module"
-ENV = var.ENV
 INSTANCE_TYPE= var.INSTANCE_TYPE
+ENV = var.ENV
 SPOT_INSTANCE_COUNT = var.SPOT_INSTANCE_COUNT
 OD_INSTANCE_COUNT = var.OD_INSTANCE_COUNT
 COMPONENT = "cart"
