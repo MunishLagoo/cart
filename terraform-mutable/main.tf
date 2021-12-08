@@ -14,6 +14,6 @@ NEXUS_PASS = var.NEXUS_PASS
 
 }
 
-# output "INSTANCE_IDS" {
-#     value = module.cart.INSTANCE_IDS
-# }
+output "INSTANCE_IDS" {
+    value = module.cart.INSTANCE_IDS
+}
