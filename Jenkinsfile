@@ -1,3 +1,3 @@
 @Library('roboshop') _
-nodejs(COMPONENT: 'cart',
-       LABEL:'WORKSTATION')
+nodejs(COMPONENT : 'cart',
+       LABEL     : 'WORKSTATION')
