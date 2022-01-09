@@ -3,6 +3,6 @@
 //        LABEL     : 'WORKSTATION')
 
 docker(
-       COMPONENT : 'cart',
-       LABEL     : 'WORKSTATION'
+       COMPONENT :  'cart',
+       LABEL     :  'WORKSTATION'
 )
